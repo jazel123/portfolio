@@ -1,0 +1,256 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; 
+    }
+
+    /* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}    
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin:20px 0px ;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(233, 0, 0);
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    color: white;
+    box-shadow: 0 0 10px white;
+
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid white;*/
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+.navbarA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.navbarA ul{
+    display: flex;
+    list-style: none;
+    margin:20px 0px ;
+}
+.navbarA ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbarA ul li a{
+    text-decoration: white;
+    color: rgb(233, 0, 0);
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbarA ul li a:hover{
+    color: white;
+    box-shadow: 0 0 10px white;
+
+}
+.navbarB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black (0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+.navbarB ul{
+    display: flex;
+    list-style: none;
+    margin:20px 0px ;
+}
+.navbarB ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbarB ul li a{
+    text-decoration: none;
+    color: rgb(233, 0, 0);
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbarB ul li a:hover{
+    color: black;
+    box-shadow: 0 0 10px white;
+
+}
+.navbarC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.navbarC ul{
+    display: flex;
+    list-style: none;
+    margin:20px 0px ;
+}
+.navbarC ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbarC ul li a{
+    text-decoration: none;
+    color: rgb(233, 0, 0);
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbarC ul li a:hover{
+    color: white;
+    box-shadow: 0 0 10px white;
+}
+/* About Section */
+
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px; 
+    
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 570px;
+    height: 500px;
+ 
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#picA{
+    display: flex;
+    height: 250px;
+
+}
+#picA img{
+    width: 550px;
+    height: 550px;
+    
+    
+}
+#introA{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+#introA h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#skills{
+    align-items: center;
+}
+
+/*Activities*/
+
+.pics img{
+    width: 250px;
+    height: 250px;
+}
+.photo img{
+    width: 500px;
+    height: 300px;
+}
+/*contact us*/
+body{
+    background-image: url(..//images/backgroundimages123.jpg)
+
+    
+}
+.heada{
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+}
+.socmed img {
+    display: justify;
+    margin: 20px;
+    float: center;
+
+    
+    
+   
+}
+.socmeda img {
+    display: justify;
+    margin: 20px;
+    float: center;
+
+   
+}
+.h4{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*TRIBUTE*/
+.center{
+    display: justify;
+    margin: auto;
+    margin-right: auto;
+    width: 30%;
+}
